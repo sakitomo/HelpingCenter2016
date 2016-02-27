@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Helping Center</string>
+    <string name="theadName">Name</string>
+    <string name="theadDay">Day</string>
+    <string name="theadHour">Hour</string>
+    <string name="day1">Mon</string>
+    <string name="day2">Tue</string>
+    <string name="day3">Wed</string>
+    <string name="day4">Thu</string>
+    <string name="day5">Fri</string>
+</resources>

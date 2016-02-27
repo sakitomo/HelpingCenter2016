@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Centre d'Aide"</string>
+    <string name="theadName">Nom</string>
+    <string name="theadDay">Jour</string>
+    <string name="theadHour">Heure</string>
+    <string name="day1">lun</string>
+    <string name="day2">mar</string>
+    <string name="day3">mer</string>
+    <string name="day4">jeu</string>
+    <string name="day5">ven</string>
+</resources>

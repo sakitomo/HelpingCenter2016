@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/maincolor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/myBtn1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Service Adaptes"
+                android:singleLine="true"
+                android:textSize="12sp"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/ic_help_black_36dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/myBtn2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="S.O.S"
+                android:singleLine="true"
+                android:textSize="12sp"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/ic_record_voice_over_black_48dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/myBtn3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Psychologue"
+                android:singleLine="true"
+                android:textSize="12sp"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/ic_favorite_black_24dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/myBtn4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Infirmiere"
+                android:singleLine="true"
+                android:textSize="12sp"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/ic_local_hospital_black_48dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/myBtn5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="CAR"
+                android:singleLine="true"
+                android:textSize="12sp"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/ic_account_black"
+                android:paddingTop="10dp"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/myBtn6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="CAF"
+                android:singleLine="true"
+                android:textSize="12sp"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/ic_frencht_black_48dp1"
+                android:paddingTop="10dp"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/myBtn7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ELC"
+                android:singleLine="true"
+                android:textSize="12sp"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/ic_english_black_48dp1"
+                android:paddingTop="10dp"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/myBtn8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="CALLS"
+                android:singleLine="true"
+                android:textSize="12sp"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/ic_english_black_48dp2"
+                android:paddingTop="10dp"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/myBtn9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Flash"
+                android:singleLine="true"
+                android:textSize="12sp"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/ic_frencht_black_48dp2"
+                android:paddingTop="10dp"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"></LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
